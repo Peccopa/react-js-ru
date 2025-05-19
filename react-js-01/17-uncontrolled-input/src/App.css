@@ -3,7 +3,7 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 70px;
   margin-top: 20px;
 }
 
@@ -16,3 +16,16 @@ button {
   cursor: pointer;
 }
 
+form {
+  font-size: 30px;
+}
+
+input {
+  font-size: 20px;
+  margin: 15px;
+  padding: 10px;
+}
+
+label {
+  display: block;
+}
