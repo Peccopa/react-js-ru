@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,7 +20,7 @@
       const reactHeading = React.createElement(
         'h1',
         null,
-        'Hello from React-JS!'
+        'Hello from React-JS!',
       );
       console.log(reactHeading);
       const container = document.getElementById('react-app');
@@ -28,10 +28,10 @@
       root.render(reactHeading);
     </script>
     <script>
-      const vanillaHeadind = document.createElement('h1');
-      vanillaHeadind.textContent = 'Hello from Vanilla-JS!';
-      console.log(vanillaHeadind);
-      document.getElementById('vanilla-app').append(vanillaHeadind);
+      const vanillaHeading = document.createElement('h1');
+      vanillaHeading.textContent = 'Hello from Vanilla-JS!';
+      console.log(vanillaHeading);
+      document.getElementById('vanilla-app').append(vanillaHeading);
     </script>
   </body>
 </html>
