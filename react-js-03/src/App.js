@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Counter from './components/Counter';
 import ClassCounter from './components/ClassCounter';
 
+import './styles/App.css';
+import PostItem from './components/PostItem';
+
 function App() {
   const [value, setValue] = useState('Value Text');
 
@@ -16,6 +19,8 @@ function App() {
       ></input>
       <Counter />
       <ClassCounter />
+      <PostItem />
+      <PostItem />
     </div>
   );
 }
